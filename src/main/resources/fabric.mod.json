@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "tntline",
+  "version": "${version}",
+  "name": "TntLine",
+  "description": "Tự đặt TNT theo đường thẳng, chỉnh được khoảng cách giữa các TNT.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.tntline.TntLineClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
